@@ -1,0 +1,27 @@
+{
+  "name": "lifetime-heartbeats-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive science calculator for estimating lifetime heartbeats and converting heartbeat totals into equivalent years.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "check": "npm run check:math && npm run check:privacy",
+    "check:math": "node scripts/check-math.mjs",
+    "check:privacy": "node scripts/privacy-check.mjs"
+  },
+  "keywords": [
+    "heart-rate",
+    "lifespan",
+    "heartbeats",
+    "calculator",
+    "science",
+    "biology",
+    "mammals",
+    "allometry",
+    "astro",
+    "javascript",
+    "educational-tool",
+    "clearhowguide"
+  ]
+}

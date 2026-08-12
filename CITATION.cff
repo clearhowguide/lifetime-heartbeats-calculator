@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Lifetime Heartbeats Calculator"
+type: software
+authors:
+  - given-names: "ClearHowGuide"
+    family-names: "Editorial Team"
+version: 1.0.0
+date-released: 2026-08-12
+url: "https://clearhowguide.com/en/science/lifetime-heartbeats-calculator/"
+repository-code: "https://github.com/clearhowguide/lifetime-heartbeats-calculator"
+license: MIT
+abstract: "An interactive science calculator for estimating lifetime heartbeats from heart rate and lifespan or converting heartbeat totals into equivalent years."
+keywords:
+  - heart rate
+  - lifespan
+  - heartbeats
+  - calculator
+  - mammals
+  - biology
+  - allometry
+  - science education

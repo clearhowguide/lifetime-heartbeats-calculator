@@ -1,0 +1,63 @@
+import LifetimeHeartbeatsCalculator from '../src/LifetimeHeartbeatsCalculator.astro';
+
+# Lifetime Heartbeats Calculator — Basic Usage
+
+This example shows how to use the Lifetime Heartbeats Calculator component in an Astro or MDX project.
+
+## Import the component
+
+```jsx
+import LifetimeHeartbeatsCalculator from '../src/LifetimeHeartbeatsCalculator.astro';
+```
+
+## Render the calculator
+
+```jsx
+<LifetimeHeartbeatsCalculator />
+```
+
+## Configure the share URL
+
+You can optionally provide a `sharePath` so that the calculator creates shareable URLs pointing to the official calculator page.
+
+```jsx
+<LifetimeHeartbeatsCalculator
+  sharePath="/en/science/lifetime-heartbeats-calculator/"
+/>
+```
+
+For ClearHowGuide, the official calculator is available at:
+
+https://clearhowguide.com/en/science/lifetime-heartbeats-calculator/
+
+## How it works
+
+The calculator performs all arithmetic client-side in the browser.
+
+It does not require:
+
+- an API;
+- PocketBase;
+- a database;
+- a server-side calculator endpoint;
+- browser storage for calculator inputs.
+
+The component supports two calculation modes:
+
+### Estimate lifetime heartbeats
+
+```text
+heart rate × 60 × 24 × 365.25 × years
+```
+
+### Convert heartbeats into equivalent years
+
+```text
+total heartbeats ÷ heart rate ÷ 60 ÷ 24 ÷ 365.25
+```
+
+## Important limitation
+
+The calculator provides mathematical estimates for educational purposes.
+
+It does not predict lifespan and should not be interpreted as medical advice.
